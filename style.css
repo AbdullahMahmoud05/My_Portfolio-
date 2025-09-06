@@ -1,0 +1,120 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0a0527;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+h1{
+    font-size: 4rem;
+
+
+}
+
+header {
+  background-color: #130146;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover, nav .active {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+ min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.home-content h1 span {
+  color: #0d6efd;
+}
+
+.profile-image{
+  width: 20pc;
+  height: auto;
+  border-radius: 50%; 
+   margin-top: 1rem;
+   border: 3px solid #4644ad; 
+   box-shadow: 0 0 15px rgba(142, 68, 173, 0.5);
+}
+
+.btn {
+  background-color: #0d6dfd;
+  color: white;
+  padding: 0.5rem 0.9rem;
+  text-decoration: none;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #084298;
+}
+
+p{
+  font-size: 1.5rem;
+   margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.copyright{
+  font-size: 1rem;
+   margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+.skills{
+  font-size: 2rem;
+   margin-bottom: 0.2rem;
+  text-align: center;
+
+
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  margin: 0 0.5rem;
+}
